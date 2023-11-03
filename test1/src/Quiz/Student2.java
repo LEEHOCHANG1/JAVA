@@ -29,7 +29,8 @@ public class Student2 {
 		for (int i = 0; i < num; i++) {
             Student student = students[i];
             System.out.println(student.getName() + " 국어 " + student.getKor() + " 영어 "
-            						+ student.getEng() + " 수학 " + student.getMath());
+            						+ student.getEng() + " 수학 " + student.getMath() + " 총점 " + student.AllScores()
+            						+ " 평균 " + String.format("%.2f", student.Average()));
 		}
 		
 		s.close();
