@@ -55,10 +55,6 @@ public class test12 {
             System.out.print(str);
             bw.write(str);
         }   
-        //String tkor = Integer.toString(totalKorean);
-        //String teng = Integer.toString(totalEnglish);
-        //String tmat = Integer.toString(totalMath);
-        //String ttot = Integer.toString(totalTotal);
         String tavg = String.format("%.2f", totalAverage/names.length);
         str = "합계\t" + totalKorean + "\t" + totalEnglish + "\t" + totalMath
                 + "\t" + totalTotal + "\t"+ tavg + '\n';
