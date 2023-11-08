@@ -13,7 +13,7 @@ public class Exit {
 				System.out.print("정말 종료하시겠습니까? (y/n) : ");
 				continueChoice = s.next().charAt(0);
 				if (continueChoice == 'y' || continueChoice == 'Y') {
-					System.out.println("프로그램을 종료합니다.");
+					System.out.println("종료합니다.");
 					System.exit(0);
 					break;
 				}
@@ -23,7 +23,6 @@ public class Exit {
 				else {
 					System.out.println("잘못 입력하셨습니다. 다시 입력해주십시요.");
 				}
-
 			}
 		}
 	}
